@@ -159,7 +159,7 @@ S('.cart--finalizar').addEventListener('click', () => {
             S('.finished').style.opacity = 1
         }, 200)
     }, 4500)
-
+    S('aside').style.left = '100vw'
 })
 S('.reload').addEventListener('click', () => {
     document.location.reload(true)
