@@ -2,7 +2,7 @@ let itensJson = [
     {
         id:1,
         name:'Força do Vendaval', 
-        img:'../images/item.png', 
+        img:'../assets/images/item.png', 
         price:3400, 
         attributes:{
             active: '<b>Ativo - Erupção das Brumas:</b> Avança na direção-alvo, disparando três projéteis no inimigo com a Vida mais baixa que estiver próximo ao destino do avanço (priorizando Campeões). Causa um total de 180 - 220 (Nv. 1 - 18) (+45% de Dano de Ataque adicional) de Dano mágico, aumentado em até 50% contra alvos com a Vida baixa (90s de Tempo de Recarga).',
