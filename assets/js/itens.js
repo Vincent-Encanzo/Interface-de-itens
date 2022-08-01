@@ -2,7 +2,7 @@ let itensJson = [
     {
         id:1,
         name:'Força do Vendaval', 
-        img:'../assets/images/item.png', 
+        img:'./assets/images/item.png', 
         price:3400, 
         attributes:{
             active: '<b>Ativo - Erupção das Brumas:</b> Avança na direção-alvo, disparando três projéteis no inimigo com a Vida mais baixa que estiver próximo ao destino do avanço (priorizando Campeões). Causa um total de 180 - 220 (Nv. 1 - 18) (+45% de Dano de Ataque adicional) de Dano mágico, aumentado em até 50% contra alvos com a Vida baixa (90s de Tempo de Recarga).',
@@ -14,7 +14,7 @@ let itensJson = [
 
     {
         id:2,
-        name:'Gume do Infinito', img:'../assets/images/item02.png', 
+        name:'Gume do Infinito', img:'./assets/images/item02.png', 
         price:3400,
         attributes:{
             active: '',
@@ -27,7 +27,7 @@ let itensJson = [
     {
         id:3, 
         name:'Dente de Na´Shor', 
-        img:'../assets/images/item03.png', 
+        img:'./assets/images/item03.png', 
         price:3000, 
         attributes:{
             active: '',
@@ -40,7 +40,7 @@ let itensJson = [
     {
         id:4, 
         name:'Tormenta de Luden', 
-        img:'../assets/images/item04.png', 
+        img:'./assets/images/item04.png', 
         price:3200, 
         attributes:{
             active: '',
@@ -53,7 +53,7 @@ let itensJson = [
     {
         id:5, 
         name:'Glacieterno', 
-        img:'../assets/images/item05.png', 
+        img:'./assets/images/item05.png', 
         price:3200, 
         attributes:{
             active: '<b>Ativo – Geleira:</b> causa 100 + 30% de Poder de Habilidade como Dano Mágico em cone e 65% de Lentidão aos inimigos por 1.5s. Inimigos no centro do cone são Enraizados (30s de Tempo de Recarga).',
@@ -66,7 +66,7 @@ let itensJson = [
     {
         id:6, 
         name:'Perdição de Lich', 
-        img:'../assets/images/item06.png', 
+        img:'./assets/images/item06.png', 
         price:3000, 
         attributes:{
             active: '',
@@ -79,7 +79,7 @@ let itensJson = [
     {
         id:7, 
         name:'Regenerador de Pedra Lunar', 
-        img:'../assets/images/item07.png', 
+        img:'./assets/images/item07.png', 
         price:2500, 
         attributes:{
             active: '',
