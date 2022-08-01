@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading--screen">
+        <div class="loading--icon"></div>
+        <div class="loading--message">
+            <p>Um momento, estamos processando sua transação.</p>
+        </div>
+    </div>
+    <div class="finished">
+        <p>Sua compra foi finalizada com sucesso!<br/>
+            <span class="debit">Cu <br></span>
+        <br>Agora volte logo para Summoner's Rift, a batalha lhe aguarda!</p>
+        <button class="reload">Voltar</button>
+    </div>
+    <div class="models">
+        <div class="product-item">
+            <a href="">
+                <div class="product-item--img"><img src="" /></div>
+                <div class="product-item--add">+</div>
+            </a>
+            <div class="product-item--price">R$ --</div>
+            <div class="product-item--name">--</div>
+            <div class="product-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h1>Loja de Itens</h1>
+        <div class="product-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Itens</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto Clube de Zaun (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="productWindowArea">
+        <div class="productWindowBody">
+            <div class="productInfo--cancelMobileButton">Voltar</div>
+            <div class="productBig">
+                <img src="" />
+            </div>
+            <div class="productInfo">
+                <h1>--</h1>
+                <div class="productInfo--desc">--</div>
+                <div class="productInfo--attarea">
+                    <div class="productInfo--sector">Atributos</div>
+                    <div class="productInfo--attribute">
+                        <div class="productInfo--active">--</div>
+                        <div class="productInfo--passive">--</div>
+                    </div>
+                </div>
+                <div class="productInfo--pricearea">
+                    <div class="productInfo--sector">Preço</div>
+                    <div class="productInfo--price">
+                        <div class="productInfo--actualPrice">R$ --</div>
+                        <div class="productInfo--qtarea">
+                            <button class="productInfo--qtmenos">-</button>
+                            <div class="productInfo--qt">1</div>
+                            <button class="productInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="productInfo--addButton">Adicionar ao carrinho</div>
+                <div class="productInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/itens.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
