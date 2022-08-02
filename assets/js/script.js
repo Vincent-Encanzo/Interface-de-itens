@@ -1,6 +1,7 @@
 let modalQt = 1
 let modalKey = 0
 let cart = []
+let dataKey = itensJson.data
 
 const S = (el) => document.querySelector(el)
 const SA = (el) => document.querySelectorAll(el)
@@ -66,18 +67,24 @@ S('.productInfo--qtmais').addEventListener('click', () => {
 })
 
 S('.productInfo--addButton').addEventListener('click', () => {
-    let key = cart.findIndex((item) => {
-        return item
-    })
-    if(key > -1){
+
+    let identifier = itensJson[modalKey].id
+    let key = cart.findIndex((item) => item.identifier == identifier)
+
+    if (key > -1){
         cart[key].qt += modalQt
     } else {
         cart.push({
+            identifier,
             id: itensJson[modalKey].id,
             qt: modalQt
         })
     }
 
+        
+    
+
+    console.log(modalQt, modalKey)
     updateCart()
     closeModal()
 })
